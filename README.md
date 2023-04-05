@@ -99,6 +99,9 @@ python eval_ggcnn.py --network <Path to Trained Network> --dataset jacquard --da
 python eval_ggcnn.py  --network squeeze_weights_cornell/epoch_00_iou_0.61_statedict.pt --dataset cornell --dataset-path ../cornell_grasp_data --iou-eval   --vis
 ```
 
+![image](https://user-images.githubusercontent.com/13982831/230070379-62234706-e65d-4736-9483-e99c28a672d5.png)
+
+
 ## Running on a Robot
 
 Our ROS implementation for running the grasping system see [https://github.com/dougsm/mvp_grasp](https://github.com/dougsm/mvp_grasp).
