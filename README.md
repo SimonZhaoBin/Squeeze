@@ -101,6 +101,9 @@ python eval_ggcnn.py  --network squeeze_weights_cornell/epoch_00_iou_0.61_stated
 
 ![image](https://user-images.githubusercontent.com/13982831/230070379-62234706-e65d-4736-9483-e99c28a672d5.png)
 
+![image](https://user-images.githubusercontent.com/13982831/230070502-0e7f85c2-1972-4456-89c9-f4f7e384a99e.png)
+
+
 
 ## Running on a Robot
 
