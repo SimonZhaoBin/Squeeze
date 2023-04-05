@@ -65,13 +65,14 @@ Some basic examples:
 # Train Squeeze on Cornell Dataset
 python train_ggcnn.py --description training_example --network squeezenet --dataset cornell --dataset-path <Path To Dataset>
 
-**example:** python -m utils.dataset_processing.generate_cornell_depth  ../cornell_grasp_data
-python train_ggcnn.py
-
-python train_ggcnn.py --description training_example --network squeezenet --dataset cornell --dataset-path ../cornell_grasp_data
-
 # Train Squeeze on Jacquard Datset
 python train_ggcnn.py --description training_example2 --network squeezenet --dataset jacquard --dataset-path <Path To Dataset>
+```
+
+```bash
+python -m utils.dataset_processing.generate_cornell_depth  ../cornell_grasp_data
+
+python train_ggcnn.py --description training_example --network squeezenet --dataset cornell --dataset-path ../cornell_grasp_data
 ```
 
 Trained models are saved in `output/models` by default, with the validation score appended.
@@ -90,7 +91,10 @@ For example:
 ```bash
 python eval_ggcnn.py --network <Path to Trained Network> --dataset jacquard --dataset-path <Path to Dataset> --jacquard-output --iou-eval
 ```
-**example:** python eval_ggcnn.py  --network squeeze_weights_cornell/epoch_00_iou_0.61_statedict.pt --dataset cornell --dataset-path ../cornell_grasp_data --iou-eval   --vis
+
+```bash
+python eval_ggcnn.py  --network squeeze_weights_cornell/epoch_00_iou_0.61_statedict.pt --dataset cornell --dataset-path ../cornell_grasp_data --iou-eval   --vis
+```
 
 ## Running on a Robot
 
