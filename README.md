@@ -1,6 +1,3 @@
-# Squeeze
-Single Target Robotic Grasping based on Squeeze
-
 # squeeze-ggcnn-master
 
 
